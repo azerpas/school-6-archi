@@ -1,0 +1,36 @@
+      mov R9,#msg1
+      str R9,.WriteString
+      ldr R0,.InputNum
+      mov R9,#msg2
+      str R9,.WriteString
+      ldr R1,.InputNum
+      cmp R0,#10
+      beq assign
+      cmp R0,#10
+      bne plus
+plus: 
+      add R0,R0,#1 
+      b then
+assign: 
+      mov R1,#9
+      b then
+then:
+      mov R3,#6
+      mov R9,#msg3
+      str R9,.WriteString
+      mov R9,R0
+      str R9,.WriteUnsignedNum
+      mov R9,#msg4
+      str R9,.WriteString
+      mov R9,R1
+      str R9,.WriteUnsignedNum
+      mov R9,#msg5
+      str R9,.WriteString
+      mov R9,R3
+      str R9,.WriteUnsignedNum
+      halt
+msg1: .ASCIZ "Input X:\n"
+msg2: .ASCIZ "Input Y:\n"
+msg3: .ASCIZ "\nX: "
+msg4: .ASCIZ "\nY: "
+msg5: .ASCIZ "\nZ: "

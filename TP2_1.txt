@@ -1,0 +1,10 @@
+      mov R0,#4
+      mov R1,#8
+      cmp R0,#10
+      beq assign
+      cmp R0,#10
+      bne plus
+      mov R3,#6
+      halt
+assign: mov R1,#9
+plus: add R0,R0,#1
