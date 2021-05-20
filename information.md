@@ -41,4 +41,21 @@
 
 ### Complément à 2
 Complément à 1 + 1
+#### Exemple sur 3 bits [-4,3]
+000: 0
+001: 1
+010: 2
+011: 3
+100: -4
+101: -3
+110: -2
+111: -1
 
+## Circuits combinatoires & séquentiels
+- `Algèbre de Boole`: circuits combinatoires
+- `Théorie des automates`: circuits séquentiels
+- `Signaux logiques et analogiques`
+
+## Table de vérité 
+Description d'une opération logique:
+![tableverite](https://user-images.githubusercontent.com/19282069/118999906-f14e5480-b98a-11eb-81dc-cda2e19454a2.png)
