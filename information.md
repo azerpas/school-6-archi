@@ -23,3 +23,20 @@
 12÷8: quotient 1, reste 4	
 1÷8: quotient 0, reste 1```	
 **100(10) = 144(8)**
+
+## Représentations des nombres négatifs
+### Signe et valeur absolue 
+**Signe**: poids fort		
+#### Exemple sur 3 bits [-3,3]
+000: 0	
+001: 1	
+010: 2	
+011: 3	
+100: 0	
+101: -1		
+110: -2		
+111: -3		
+
+### Complément à 2
+Complément à 1 + 1
+
